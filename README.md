@@ -1,3 +1,3 @@
-# Web Starter
+# Overlays
 
-> 🚀 A template for web projects
+> 🐓 Overlays for your projector
