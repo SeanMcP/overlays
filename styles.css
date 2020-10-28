@@ -4,12 +4,17 @@ body {
   margin: 0;
 }
 
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 [data-overlay] {
-  border: none;
-  height: 3rem;
+  border: 1px solid hsla(0, 0%, 0%, 10%);
+  height: 5rem;
   padding: 0;
   position: relative;
-  width: 3rem;
 }
 
 [data-overlay] span {
@@ -27,7 +32,10 @@ body:not([data-fullscreen]) #overlay {
 }
 
 #overlay {
+  /* background-color: white; */
+  height: 100%;
   position: relative;
+  width: 100%;
 }
 
 #exit-fullscreen-button {
@@ -43,4 +51,16 @@ body:not([data-fullscreen]) #overlay {
   right: 0;
   top: 0;
   width: 48px;
+}
+
+[data-bg="bullet"] {
+  background-image: url("assets/bullet.svg");
+}
+
+[data-bg="grid"] {
+    background-image: url("assets/grid.svg");
+}
+
+[data-bg="lined"] {
+    background-image: url("assets/lined.svg");
 }

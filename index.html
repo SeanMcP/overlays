@@ -14,15 +14,17 @@
   <body>
     <main>
       <h1>🐓 Overlays</h1>
-      <button data-overlay style="background-color: red">
-        <span>Red</span>
-      </button>
-      <button data-overlay style="background-color: green">
-        <span>Green</span>
-      </button>
-      <button data-overlay style="background-color: blue">
-        <span>Blue</span>
-      </button>
+      <div class="grid">
+        <button data-overlay data-bg="bullet">
+          <span>Bullet</span>
+        </button>
+        <button data-overlay data-bg="grid">
+          <span>Grid</span>
+        </button>
+        <button data-overlay data-bg="lined">
+          <span>Lined</span>
+        </button>
+      </div>
       <div id="overlay">
         <button aria-label="exit fullscreen" id="exit-fullscreen-button">
           ×
