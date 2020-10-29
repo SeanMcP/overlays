@@ -9,6 +9,7 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <path d="M-1-1h26v26H-1z" fill="#fff"/>
- <circle cx="12" cy="12" r="2" fill="#ddd"/>
+ <path d="m0 0h24v24h-24z" fill="#fff" stroke-width=".92308"/>
+ <rect x="8" y="11.5" width="8" height="1" fill="#ddd" stroke="#ddd" stroke-width=".004"/>
+ <rect transform="rotate(90)" x="8" y="-12.5" width="8" height="1" fill="#ddd" stroke="#ddd" stroke-width=".004"/>
 </svg>

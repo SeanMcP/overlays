@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Overlays</title>
-    <meta name="description" content="Overlays for your projector" />
+    <meta
+      name="description"
+      content="Full-screen overlays for your projector"
+    />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐓</text></svg>"
@@ -13,16 +16,44 @@
   </head>
   <body>
     <main>
-      <h1>🐓 Overlays</h1>
+      <h1><span aria-label="Chicken" role="img">🐓</span> Overlays</h1>
+      <p>Full-screen overlays for your projector</p>
       <div class="grid">
-        <button data-overlay data-bg="bullet">
-          <span>Bullet</span>
+        <button
+          class="overlay"
+          style="background-image: url(/assets/lined.svg)"
+        >
+          <span>Lined</span>
         </button>
-        <button data-overlay data-bg="grid">
+        <button
+          class="overlay"
+          style="background-image: url(/assets/lined-paper.svg)"
+        >
+          <span>Lined paper</span>
+        </button>
+        <button
+          class="overlay"
+          style="background-image: url(/assets/childrens-paper.svg)"
+        >
+          <span>Children's lined paper</span>
+        </button>
+        <button
+          class="overlay"
+          style="background-image: url(/assets/bullet.svg)"
+        >
+          <span>Bullets</span>
+        </button>
+        <button class="overlay" style="background-image: url(/assets/grid.svg)">
           <span>Grid</span>
         </button>
-        <button data-overlay data-bg="lined">
-          <span>Lined</span>
+        <button
+          class="overlay"
+          style="background-image: url(/assets/cross.svg)"
+        >
+          <span>Crosses</span>
+        </button>
+        <button class="overlay" style="background-image: url(/assets/iso.svg)">
+          <span>Isometric</span>
         </button>
       </div>
       <div id="overlay">
